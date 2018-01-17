@@ -8,7 +8,9 @@ var onDragStart = function(source, piece, position, orientation) {
     piece.search(/^b/) !== -1) {
     return false;
   }
+  else console.log('Game Over. Press F5 to restart');
 };
+
 
 var makeRandomMove = function() {
   var possibleMoves = game.moves();
