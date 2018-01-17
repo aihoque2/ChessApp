@@ -2,7 +2,7 @@
 var makeMove = function(algo, skill=3) {
   // exit if the game is over
   if (game.game_over() === true) {
-    console.log('Game Over. Press F5 to restart);
+    console.log('Game Over. Press F5 to restart');
     return;
   }
   // Calculate the best move, using chosen algorithm
